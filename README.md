@@ -22,6 +22,22 @@ Signup user account
 -bug fix:if the user is not logged in Redirect/browse to login page and vice versa
 -Unsubscribe to the onAuthStateChangedCallback callback
 
+-Add hardcoded urls to constants
+-Register TMDB API and create an app & get access token
+
+-Get data from TMDB now playing movies list .
+-custom hook for useNowPlayingMovies
+-Create movieSlice
+-Update store with movies data
+
+-Planning for mainContainer and secondaryContainer
+-Fetched data for trailer video
+-Update store with Trailer video data
+-Embedded the youtube video and make it autoplay and mute
+-Tailwind classes to amke it look awesome
+
+-
+
 ## -Implement Sign In user API
 
 # Features
