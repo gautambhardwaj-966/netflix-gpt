@@ -42,6 +42,10 @@ Signup user account
 -usePopularMovies Custom Hook
 -GPT search feature
 
+-GPT Search Page
+-GPT Search Bar
+-Multi-language feature
+
 -
 
 ## -Implement Sign In user API

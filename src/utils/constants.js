@@ -6,8 +6,17 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMzU1Yzc1Y2U2Y2VjMzQ1YzM0ZWUzYmExZjI2YTBlOSIsInN1YiI6IjY1MGIyOTA4Y2FkYjZiMDBhYmM2YWI4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.T4E7L2dKLdZix4669uEi7NKk9sek710nxPYPxQnstFg'
+      Authorization: "Bearer" + process.env.RAECT_APP_TMDB_KEY
     }
   };
   
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w300/";
+
+  export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+  export const SUPPORTED_LANGUAGES = [{identifier:"en",name:"English"},
+  {identifier:"hindi",name:"Hindi"},
+  {identifier:"spanish",name:"Spanish"}];
+
+  //We need to keep this key secret
+  export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;

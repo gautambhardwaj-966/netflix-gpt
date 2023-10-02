@@ -16,8 +16,8 @@ const appRouter = createBrowserRouter([
     {
         path:"/browse",
         element:<Browse/>,
-    }
-])
+    },
+]);
 
 
 
@@ -25,7 +25,7 @@ const appRouter = createBrowserRouter([
     <div>
       <RouterProvider router={appRouter}/>
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;
