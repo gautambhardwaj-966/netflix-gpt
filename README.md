@@ -40,6 +40,7 @@ Signup user account
 -TMDB Image CDN URL
 -Made the browser page amazing with Tailwind CSS
 -usePopularMovies Custom Hook
+-GPT search feature
 
 -
 
