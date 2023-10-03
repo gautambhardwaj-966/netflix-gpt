@@ -71,7 +71,7 @@ dispatch(changeLangage(e.target.value))
       <img className="w-44 mx-auto" src={LOGO} alt="logo"/>
 
       {user && (
-      <div className="flex p-2">
+      <div className="flex p-2 justify-between">
 
         {/* If showGptSearch is true then only show this Language dropdown button */}
         {showGptSearch && (<select className="p-2 m-2 bg-gray-900 text-white" onChange={handleLanguageChange}>
@@ -82,7 +82,7 @@ dispatch(changeLangage(e.target.value))
 
         {/* If showGptSearch is true then it will be Home Page else it will be GPT Serach */}
 <button onClick={handleGptSearchClick} className="py-2 px-4 mx-4 my-2 bg-purple-800 text-white rounded-lg">{showGptSearch? "Home Page":  "GPT Search"}</button>
-        <img className="w-12 h-12" alt="usericon" src={user?.photoURL}/>
+        <img className="hidden md:block w-12 h-12" alt="usericon" src={user?.photoURL}/>
         <button onClick={handleSignOut}
         className="font-bold text-white">(Sign Out)</button>
       </div>

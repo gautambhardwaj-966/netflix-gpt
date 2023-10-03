@@ -45,8 +45,17 @@ Signup user account
 -GPT Search Page
 -GPT Search Bar
 -Multi-language feature
+-Get Open AI Api key
 
--
+-GPT Search API call
+-Fetched GPTMovieSuggestions from TMDB
+
+- created gptSlice and added Data
+  -Reused Movie List Component to make movie suggestion container
+  -Memoization
+  -Adding .env file
+  -Adding .env file to gitignore
+  -Made our Site responsive
 
 ## -Implement Sign In user API
 
